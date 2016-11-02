@@ -10,15 +10,19 @@
 int main(){
 
 	//Declaramos una variable del tipo short, esta se usa para un int
+	//Realmente no importa el valor que le demos, es solo para que se vea grande :v
 	short unEntero = 1997;
 
 	//Declaramos una variable de tipo entero, se diferencia de short por el tamaño, int es más grande
+	//No importa el valor
 	int otroEntero = 2005;
 
 	//Declaramos una variable de tipo unsigned int, es decir un entero siempre mayor a 0
+	//No interesa el valor
 	unsigned int enteroPositivo = 2010;
 
 	//Declaramos un apuntador a un entero
+	//Valor innecesario
 	int *enteroSenialado;
 
 	//Le damos al apuntador una direccion, en este caso la del int otroEntero
@@ -35,10 +39,10 @@ int main(){
 
 	//Llamamos a la funcion printf(print format) para imprimir el tamaño en entero short según el metodo sizeof
 	//sizeof regresa el tamaño que ocupa en memoria en bytes del tipo de la variable
-	printf("El tipo short tiene tamanio %d\n", sizeof(unEntero));
+	printf("El tipo short tiene tamanio %d\n", sizeof(short));
 
 	//Ahora llamamos denuevo a print, para imprimir el tamaño del int de la variable
-	printf("El tipo int tiene tamanio %d\n", sizeof(otroEntero));
+	printf("El tipo int tiene tamanio %d\n", sizeof(int));
 
 	//Ahora imprimimos al entero positivo
 	//A este entero no se le puede sustraer más alla del valor de su numero
