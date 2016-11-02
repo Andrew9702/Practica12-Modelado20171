@@ -3,7 +3,7 @@
 //io significa in, out (entrada, salida)
 #include <stdio.h>
 
-//Esta libreria hará que mi programa se congele
+//Esta libreria hará que mi programa se cierre al instante
 #include <stdlib.h>
 
 //Declaramos el metodo principal en la clase para c
