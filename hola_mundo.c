@@ -1,4 +1,4 @@
-//incluye la biblioteca que permite imprimir en pantalla
+//incluye la libreria que permite imprimir en la pantalla
 #include <stdio.h>
 
 //Metodo principal para mandar a llamar a la funcion print de stdio.h
