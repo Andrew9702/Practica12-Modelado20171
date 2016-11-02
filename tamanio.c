@@ -39,10 +39,10 @@ int main(){
 
 	//Llamamos a la funcion printf(print format) para imprimir el tamaño en entero short según el metodo sizeof
 	//sizeof regresa el tamaño que ocupa en memoria en bytes del tipo de la variable
-	printf("El tipo short tiene tamanio %d\n", sizeof(short));
+	printf("El tipo short tiene tamanio %d\n", sizeof(unEntero));
 
 	//Ahora llamamos denuevo a print, para imprimir el tamaño del int de la variable
-	printf("El tipo int tiene tamanio %d\n", sizeof(int));
+	printf("El tipo int tiene tamanio %d\n", sizeof(otroEntero));
 
 	//Ahora imprimimos al entero positivo
 	//A este entero no se le puede sustraer más alla del valor de su numero
