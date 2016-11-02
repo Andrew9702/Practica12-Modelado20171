@@ -11,11 +11,14 @@ void swap(int *apuntoAqui, int *apuntoAlla){
 	//Luego apuntoAlla (que es el parametro que recibe el metodo)
 	int valorB = *apuntoAlla;
 
+	//Salvamos el valor de A en una variable
+	int salvadA = *apuntoAqui;
+
 	//Luego apuntamos el primer apuntador al segundo valor
 	*apuntoAqui = *apuntoAlla;
 
 	//Apuntamos el segundo apuntador al primer valor
-	*apuntoAlla = (int*) valorA;
+	*apuntoAlla = salvadA;
 
 	//Le damos al valor A, el valor del apuntador A
 	valorA = *apuntoAqui;
